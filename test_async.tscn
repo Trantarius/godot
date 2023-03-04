@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dofcbigrmr853"]
+
+[ext_resource type="Script" path="res://test_async.gd" id="1_l7fsf"]
+
+[node name="TestAsync" type="Node"]
+script = ExtResource("1_l7fsf")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+autostart = true

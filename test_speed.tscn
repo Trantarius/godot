@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvybevlt3mvhm"]
+
+[ext_resource type="Script" path="res://test_speed.gd" id="1_nylwn"]
+
+[node name="TestSpeed" type="Timer"]
+script = ExtResource("1_nylwn")
